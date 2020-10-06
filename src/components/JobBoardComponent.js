@@ -2,7 +2,7 @@ import React from 'react';
 
 
 //component receives the job as a prop
-const JobBoardComponent = ( {job : {company , logo , isNew , featured , position , role, level , postedAt , contract , location , languages , tools}
+const JobBoardComponent = ( {job : {company  , logo , isNew , featured , position , role, level , postedAt , contract , location , languages , tools}
 
 })=>{
     const tags = [role , level];
